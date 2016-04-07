@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<article>
+		<h1>Tablas</h1>
+	<table>
+		<tr>
+			<th>Nombres</th>
+			<th>Nota 1</th>
+			<th>Nota 2</th>
+			<th>Nota 3</th>
+		</tr>
+		<tr>
+			<th>Juan</th>
+			<td>3</td>
+			<td>5</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<th>Jose</th>
+			<td>3</td>
+			<td>5</td>
+			<td>2</td>
+		</tr>
+	</table>
+	</article>
+
+	<article>
+		<h1>Formularios</h1>
+		<!--GET y POST -->
+
+		<form metodo="post" action="enviador.php">
+			<label for="Nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Ingresa tu nombre" required/>
+
+			<br/>
+
+			<label for="correo">Correo:</label>
+			<input type="email" name="correo" placeholder="Ingresa tu correo" required/>
+
+			<br/>
+			<label for="telefono">Telefono:</label>
+			<input type="tel" name="Telefono" placeholder="Completa tu telefono"/>
+
+			<br/>
+
+			<label for="edad">Edad:</label>
+			<input type="number" name="Edad:" placeholder="Completa tu edad"/>
+
+			<br/>
+
+			<input type="checkbox" name="terminos" value="1">
+			Acepta <a href="terminos.html">terminos y condiciones.</a>
+
+			<br/>	
+			<label for="provincia">Provincia:</label>
+			<select name="provincia" multiple>
+				<option value="BA">Buenos Aires</option>
+				<option value="SF">Santa Fe</option>
+				<option value="er">Entre Rios</option>
+				<option value="rn">Rio Negro</option>
+				<option value="co">Cordoba</option>
+				<option value="sn">San Luis</option>
+			</select>
+
+			<br/>
+
+			<label for="messaje">Mensaje</label>
+			<textarea name="mensaje"></textarea>
+
+			<br/>
+
+			<label for="foto"> Adjuntar foto</label>
+			<input type="file" name="foto">
+
+			<br/>
+
+			<label for="conocio">Como nos conocio:</label>
+			<br/>
+			<input type="radio" name="conocio" value="Tv">Tv<br/>
+			<input type="radio" name="conocio" value="Radio">Radio<br/>
+			<input type="radio" name="conocio" value="Internet">Internet<br/>
+
+
+
+			<input type="submit" value="enviar formularios">
+
+		</form>
+	</article>

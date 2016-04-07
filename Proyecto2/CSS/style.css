@@ -1,0 +1,44 @@
+body{
+	font-family: arial,helvetica;
+}
+
+ul{
+	background-color: rgba(255,0,255,0.5);
+
+}
+
+article{
+	border: 2px green solid;
+}
+
+p{
+	color: blue;
+	line-height: 25px;
+	letter-spacing: 2px;
+	font-size: 4em;
+}
+h1{
+	background-color: yellow;
+	color: red;
+	font-style: italic;
+	font-weight: normal;
+	font-family: "times new roman", helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.destacado{
+	background-color: green;
+}
+.ejemplo{
+	background: yellow;
+	color: red;
+	border: 10px dashed blue
+}
+.destacado{
+	background-image: url("../imagenes/2.jpg");
+	font-family: "Raleway", sans-serif;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: blue
+}
